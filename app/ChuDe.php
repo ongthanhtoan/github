@@ -9,7 +9,7 @@ class ChuDe extends Model
     const CREATED_AT = 'cd_taoMoi';
     const UPDATED_AT = 'cd_capNhat';
     protected $table = 'chude';
-    protected $fillable = ['cd_ten','cd_taoMoi','cd_capNhat'];
+    protected $fillable = ['cd_ten','cd_taoMoi','cd_capNhat','cd_trangThai'];
     protected $guarded = ['cd_ma'];
     protected $primaryKey = 'cd_ma';
     protected $dates = ['cd_taoMoi','cd_capNhat'];

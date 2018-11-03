@@ -16,7 +16,8 @@ Route::get('/', function () {
 });
 use App\Loai;
 Route::get('/danhsachloai',function(){
-	$ds_loai = Loai::all();
+	//$ds_loai = Loai::all();
+	$ds_loai = DB::table('loai') -> get();// Query Bulder
 	$json = json_encode($ds_loai);
 	return $json;
 });
