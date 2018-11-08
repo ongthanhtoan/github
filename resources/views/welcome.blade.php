@@ -81,7 +81,10 @@
                 <div class="title m-b-md">
                     Ong Thanh Toàn
                 </div>
-
+                <div>
+                    <a href="{{route('danhsachloai.index')}}">Đây là danh sách loại</a>
+                    <a href="{{route('danhsachchude.index')}}">Đây là danh sách chủ đề</a>
+                </div>
                 <div class="links">
                     <a href="https://laravel.com/docs">Documentation</a>
                     <a href="https://laracasts.com">Laracasts</a>

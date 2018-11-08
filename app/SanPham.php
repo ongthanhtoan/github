@@ -16,10 +16,10 @@ class SanPham extends Model
     protected $dateFormat = 'Y-m-d H:i:s';
     public function Loai()
     {
-    	return $this -> belongsTo('App\Loai','l_ma','l_ma');
+    	return $this->belongsTo('App\Loai','l_ma','l_ma');
     }
     public function hinhAnhs()
     {
-    	
+    	return $this->hasMany('App\HinhAnh','sp_ma','sp_ma')
     }
 }
