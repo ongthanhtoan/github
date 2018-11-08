@@ -29,3 +29,4 @@ Route::get('/', function () {
 // });
 Route::get('/danhsachloai', 'LoaiController@index')->name('danhsachloai.index');
 Route::get('/danhsachchude', 'ChuDeController@index')->name('danhsachchude.index');
+Route::get('/danhsachsanpham', 'SanPhamController@index')->name('danhsachsanpham.index');

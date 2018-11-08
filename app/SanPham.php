@@ -20,6 +20,6 @@ class SanPham extends Model
     }
     public function hinhAnhs()
     {
-    	return $this->hasMany('App\HinhAnh','sp_ma','sp_ma')
+    	return $this->hasMany('App\HinhAnh','sp_ma','sp_ma');
     }
 }

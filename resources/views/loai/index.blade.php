@@ -1,4 +1,8 @@
-<h1>Đây là view loại</h1>
+@extends('backend.layouts.index')
+@section('title')
+Danh Sách Loại Sản Phẩm
+@endsection
+@section('main-content')
 <table border="1" width="50%">
 	<thead>
 		<tr>
@@ -15,3 +19,4 @@
 		@endforeach
 	</tbody>
 </table>
+@endsection

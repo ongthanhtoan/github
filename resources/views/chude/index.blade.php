@@ -1,5 +1,9 @@
+@extends('backend.layouts.index')
 
-<h1>đây là view chủ đề</h1>
+@section('title')
+Danh Sach Chủ Đề
+@endsection
+@section('main-content')
 <table border="1" width="50%">
 	<thead>
 		<tr>
@@ -16,3 +20,4 @@
 		@endforeach
 	</tbody>
 </table>
+@endsection
